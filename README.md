@@ -48,8 +48,6 @@ No. of Active hosts: 2
 
 A graphical network map window is displayed showing the gateway at the center and all active hosts connected to it.
 
----
-
 ## 🏗️ Project Structure
 
 NetworkScanner/
@@ -59,12 +57,10 @@ NetworkScanner/
 ├── network_map.py      # Network visualization logic
 └── README.md
 
----
-
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the repository
-```bash
+
     git clone https://github.com/The-Abhishek1/network-mapper.git 
     cd network-mapper
 
