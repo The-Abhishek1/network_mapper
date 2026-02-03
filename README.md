@@ -64,52 +64,52 @@ NetworkScanner/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/The-Abhishek1/network-mapper.git
-cd network-mapper
+    git clone https://github.com/The-Abhishek1/network-mapper.git 
+    cd network-mapper
 
 2️⃣ Create a virtual environment (recommended)
 
-python3 -m venv virtenv
-source virtenv/bin/activate
+    python3 -m venv virtenv
+    source virtenv/bin/activate
 
 3️⃣ Install Python dependencies
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 📦 Dependencies
-Python Libraries
+  Python Libraries
 
-scapy
+    1.  scapy
 
-networkx
+    2.  networkx
 
-matplotlib
+    3.  matplotlib
 
-tabulate
+    4.  tabulate
 
-colorama (optional)
+    5.  colorama (optional)
 
 System Tools (Linux)
 
-nmblookup – NetBIOS hostname resolution
+      nmblookup – NetBIOS hostname resolution
 
-avahi-resolve-address – mDNS hostname resolution
+      avahi-resolve-address – mDNS hostname resolution
 
 Install system tools:
 
-sudo apt install samba-common-bin avahi-utils
+      sudo apt install samba-common-bin avahi-utils
 
 🚀 Usage
 
 Run the scanner:
 
-python3 network_info.py
+      python3 network_info.py
 
 Network input options
 
-Press Enter → Auto-detect local /24 network
+    Press Enter → Auto-detect local /24 network
 
-Provide custom subnet:
+    Provide custom subnet:
 
-192.168.1.0/24
-10.0.0.0/24
+      1.  192.168.1.0/24
+      2.  10.0.0.0/24
