@@ -1,6 +1,6 @@
 # Network Mapper 🕸️
 
-A Python-based **local network discovery and visualization tool** that scans your subnet, identifies active hosts, resolves MAC addresses and hostnames, and visualizes the network in a **gateway-centric logical map**.
+A Python-based **network discovery and visualization tool** that scans your subnet, identifies active hosts, resolves MAC addresses and hostnames, and visualizes the network in a **gateway-centric logical map**.
 
 This project is designed for **learning networking, cybersecurity, and reconnaissance fundamentals**, inspired by how real scanners work internally.
 
@@ -35,9 +35,11 @@ Scanning network: 192.168.7.0/255.255.255.0
 [+] Host 192.168.7.3 is UP
 [+] Host 192.168.7.1 is UP
 
+
+```text
 No. of Active hosts: 2
 
- +--------------+-------------------+------------+
++--------------+-------------------+------------+
 | IP Address   | MAC Address       | Hostname   |
 +==============+===================+============+
 | 192.168.7.3  | 46:a6:49:60:28:3d |            |
@@ -49,13 +51,15 @@ A graphical network map window is displayed showing the gateway at the center an
 
 ---
 
+```md
 ## 🏗️ Project Structure
 
+```text
 NetworkScanner/
 │
-├── network_info.py # Network detection & host discovery
-├── device_details.py # MAC & hostname enumeration
-├── network_map.py # Network visualization logic
+├── network_info.py      # Network detection & host discovery
+├── device_details.py   # MAC & hostname enumeration
+├── network_map.py      # Network visualization logic
 └── README.md
 
 ---
