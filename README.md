@@ -28,6 +28,7 @@ This project is designed for **learning networking, cybersecurity, and reconnais
 
 ### CLI Output
 
+```text
 Enter network (e.g. 192.168.1.0/24) or press Enter for auto-detect: 192.168.7.1/24
 
 Scanning network: 192.168.7.0/255.255.255.0
@@ -35,8 +36,6 @@ Scanning network: 192.168.7.0/255.255.255.0
 [+] Host 192.168.7.3 is UP
 [+] Host 192.168.7.1 is UP
 
-
-```text
 No. of Active hosts: 2
 
 +--------------+-------------------+------------+
@@ -51,10 +50,8 @@ A graphical network map window is displayed showing the gateway at the center an
 
 ---
 
-```md
 ## 🏗️ Project Structure
 
-```text
 NetworkScanner/
 │
 ├── network_info.py      # Network detection & host discovery
